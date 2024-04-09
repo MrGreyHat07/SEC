@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo -e "\033[4m\033[35mSQL_Error_Checker\033[0m"  # Big blue "SEC" message
+echo -e "\033[32mAuthor: Deepak Rawat\033[0m"  # Green author's name
+
+
 # Usage: bash check_sql_injection.sh urls.txt
 
 URL_FILE=${1?Pass the URL file as a parameter!}
