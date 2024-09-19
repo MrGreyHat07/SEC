@@ -8,10 +8,10 @@ This script is designed to detect SQL injection vulnerabilities in a list of URL
 2. Create a text file named `urls.txt` and list the URLs you want to test for SQL injection vulnerabilities. Each URL should be on a new line.
 3. Open your terminal and navigate to the directory where you saved the script.
 4. Run the script by executing the following command:
-5. `
+`
 chmod +x check_sql_injection.sh
 `
-Run the script using bash
+5. Run the script using bash
 ```bash
 bash check_sql_injection.sh urls.txt
 ```
